@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:key="Connectivité"
+        app:title="Connectivité">
+        <ListPreference
+            android:entries="@array/pref_wifi_networks"
+            android:title="Séléctionnez un Wifi" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:key="Connectivité2"
+        app:title="Connectivité">
+
+        <CheckBoxPreference
+            android:key="checkbox"
+            app:title="Fait-il beau ?" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="switch"
+            android:title="Fait-il beau ?" />
+
+
+        <EditTextPreference
+            android:key="edit_text"
+            app:title="Texte" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="GuidedSteps" parent="Theme.Leanback.GuidedStep">
+        <item name="guidedActionsBackground">@color/guidedstep_actions_background</item>
+        <item name="guidedActionsBackgroundDark">@color/guidedstep_actions_dark_background</item>
+    </style>
+
+    <style name="App.Preferences" parent="Theme.Leanback">
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Leanback</item>
+    </style>
+
+</resources>
